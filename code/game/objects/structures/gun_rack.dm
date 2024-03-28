@@ -55,6 +55,27 @@
 	initial_stored = 6
 	allowed_type = /obj/item/weapon/gun/rifle/type71
 
+/obj/structure/gun_rack/apc
+	name = "APC ammo compartment"
+	icon_state = "frontal"
+	desc = "Uhoh. You shouldn't be seeing this."
+
+/obj/structure/gun_rack/apc/frontal
+	name = "frontal cannon ammo storage compartment"
+	icon_state = "frontal"
+	desc = "A small compartment that stores ammunition for the APC's 'Bleihagel RE-RE700 Frontal Cannon'."
+	max_stored = 2
+	initial_stored = 0
+	allowed_type = /obj/item/ammo_magazine/hardpoint/m56_cupola/frontal_cannon
+
+/obj/structure/gun_rack/apc/boyars
+	name = "dual cannon ammo storage compartment"
+	icon_state = "boyars"
+	desc = "A small compartment that stores ammunition for the APC's 'PARS-159 Boyars Dualcannon'."
+	max_stored = 2
+	initial_stored = 0
+	allowed_type = /obj/item/ammo_magazine/hardpoint/boyars_dualcannon
+
 /obj/structure/gun_rack/xm40
 	icon_state = "xm40"
 	desc = "ARMAT-produced gun rack for storage of long guns. This one in particular is fitted to hold the advanced XM40SD series of rifles, one that never got slated for mass production and is now given out to select special forces units. Get tactical."
