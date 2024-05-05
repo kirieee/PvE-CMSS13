@@ -26,5 +26,5 @@ endmap
 map rover
 endmap
 
-map golden_arrow_classic
+map uss_flash
 endmap
